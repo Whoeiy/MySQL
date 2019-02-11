@@ -103,7 +103,7 @@
 
   e.g.:
 
-  ![image-20190204170303489](/Users/whoeiy/Library/Application Support/typora-user-images/image-20190204170303489.png)
+  ![image-20190204170303489](https://ws1.sinaimg.cn/large/006tNc79ly1g02hh91ub8j319o056djl.jpg)
 
 - 通过下面的命令**查看表中数据**
 
@@ -208,7 +208,7 @@
 
 #### 以上即是基本的增删改查的操作
 
-****
+***
 
 2019.2.7-2.11
 
