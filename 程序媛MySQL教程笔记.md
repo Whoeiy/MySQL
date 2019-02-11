@@ -43,7 +43,7 @@
 
 ***
 
-### 表的操作
+###表的操作
 
 - 在操作表之前首先要**连接数据库**
 
@@ -208,7 +208,7 @@
 
 #### 以上即是基本的增删改查的操作
 
-***
+****
 
 2019.2.7-2.11
 
@@ -454,7 +454,7 @@
 
     **执行删除操作前表中的数据**
 
-    ![image-20190211142108132](/Users/whoeiy/Library/Application Support/typora-user-images/image-20190211142108132.png)
+    ![](https://ws2.sinaimg.cn/large/006tNc79ly1g02hk18587j30q80s8ain.jpg)
 
     **删除author_table中author_id = 4的数据**
 
@@ -464,7 +464,7 @@
 
     **执行删除操作后表中的数据**
 
-    ![image-20190211142725391](/Users/whoeiy/Library/Application Support/typora-user-images/image-20190211142725391.png)
+    ![](https://ws4.sinaimg.cn/large/006tNc79ly1g02hjt9qr6j30r00re47d.jpg)
 
     Article_table中对应author_id = 4的数据也跟随着被删除。
 
