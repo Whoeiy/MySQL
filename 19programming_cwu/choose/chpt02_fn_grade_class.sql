@@ -1,4 +1,4 @@
-#chpt02fn_grade_class
+#chpt02_fn_grade_class
 #time:190924
 #
 #定义函数，使用case语句：
