@@ -13,6 +13,7 @@ public class Main {
 		System.out.println("请输入序号: ");
 		String sno = input.next();
 		input.close();
+		//调用存储过程，查询学生选课数
 		int num = chooseDao.getChooseNum(sno);
 		System.out.println(sno+"学生的选课数是: "+num);
 	}

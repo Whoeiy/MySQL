@@ -22,10 +22,10 @@ public class ChooseDAO {
 		try {
 			conn = DBUtils.getConnection();
 			cstmt = conn.prepareCall("call proc_getChooseNum(?,?)");
-			cstmt.setString(1, sno);
-			cstmt.registerOutParameter(2, java.sql.Types.INTEGER);
+			cstmt.setString(1, sno);	//提供输入参数
+			cstmt.registerOutParameter(2, java.sql.Types.INTEGER);	//注册输出参数
 			cstmt.executeQuery();
-			num = cstmt.getInt(2);
+			num = cstmt.getInt(2);	//获取存储过程的返回值
 		}catch(SQLException e) {
 			System.out.println(e);
 		}finally {
